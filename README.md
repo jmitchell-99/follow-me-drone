@@ -43,7 +43,7 @@ The drone will track and follow a human or animal by first aligning the centerpo
 ### Self-landing
 The self-landing feature can be activated by an 'L' keypress within the console. This switches the window's view to the drone's ground camera and the drone will begin searching for the landing marker which should come within your AR Drone 2.0's box. If you do not have one this is within the package as `landing_marker.png`. It is recommended you print this out to at least size A4.
 
-![Image3](./landing_marker.png)
+![Image3](./example_images/landing_marker.png)
 
 The camera window will show the drone's ground camera analysing the frame for the landing marker. Once it is found, the drone will center it's ground camera frame over the marker and then land.
 
