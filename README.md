@@ -28,8 +28,6 @@ A CUDA-enabled GPU is recommended for object detection. CPUs can be used for obj
     ```
     python3 main.py
     ```
-## Docker
-TBC
 ## Using the software
 Upon startup there will be a short wait for the drone to connect. There will be an initial battery update and a window should appear containing a live stream of the drone's front camera. If there are no detections present within the camera's frame there should be a window containing the drone's front view with a crosshair in the center, for example:
 
