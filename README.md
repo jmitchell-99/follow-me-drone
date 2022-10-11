@@ -6,14 +6,14 @@ A CUDA-enabled GPU is recommended for object detection. CPUs can be used for obj
 - Parrot AR Drone 2.0
 - POSIX-compliant operating system (such as Linux)
 - Python 3.9 or higher
-- [PS-Drone API](http://www.playsheep.de/drone/downloads.html)
+- [PS-Drone API](https://sourceforge.net/projects/ps-drone/files/)
 - [YOLOv5](https://github.com/ultralytics/yolov5) for PyTorch
 ### Recommended
 - CUDA-enabled GPU, [see list](https://developer.nvidia.com/cuda-gpus).
 - CUDA v11.7
 ## Installation and running
 1. Start a virtual environment and download the follow-me-drone package.
-2. Ensure you have both ps_drone3.py from the [PS-Drone API](), and [YOLOv5]() within your follow-me-drone directory.
+2. Ensure you have both ps_drone3.py from the [PS-Drone API](https://sourceforge.net/projects/ps-drone/files/), and [YOLOv5](https://github.com/ultralytics/yolov5) within your follow-me-drone directory.
 3. In your console run: 
     ```
     pip install -r requirements.txt
